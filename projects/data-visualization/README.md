@@ -19,6 +19,7 @@ The goal is to tell **journalistic stories** through the data.
 
 ### :file_folder: Repository Structure
 - `data/` :arrow_right: raw and cleaned data
+- `visualizations/` :arrow_right: interactive visualizations
 - `environment.yml` :arrow_right: reproducible Python environment
 - `notebook.ipynb` :arrow_right: data cleaning, analysis, and visualizations
 - `presentation.pdf` :arrow_right: exam presentation slides
