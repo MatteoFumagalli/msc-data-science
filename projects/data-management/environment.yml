@@ -1,0 +1,34 @@
+name: data_man
+channels:
+  - defaults
+dependencies:
+  - geoalchemy2
+  - geopandas
+  - ipython
+  - ipywidgets>=8.0.0
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - plotly
+  - pyproj
+  - python=3.11
+  - requests
+  - seaborn
+  - sqlalchemy
+  - shapely
+  - pip
+  - pip:
+      - beautifulsoup4==4.14.2
+      - opencage
+      - openmeteo-requests
+      - psycopg2-binary
+      - python-dotenv
+      - requests-cache
+      - retry-requests
+      - scikit-posthocs
+      - selenium==4.38.0
+      - tabulate
+      - timezonefinder
+      - tqdm==4.66.1
+      - webdriver-manager==4.0.2
