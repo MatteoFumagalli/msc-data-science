@@ -2,6 +2,7 @@
 import cv2
 import numpy as np
 import random
+from pathlib import Path
 import time
 import uuid
 
@@ -216,7 +217,8 @@ def save_snapshot(model, canvas_result, class_names, interval=1.5):
 def get_model(path):
     '''Load the pre-trained model'''
     try:
-        return load_model(path)
+        model_path = Path(__file__).parent / path
+        return load_model(str(model_path))
 
     except Exception as e:
         st.error(str(e))
