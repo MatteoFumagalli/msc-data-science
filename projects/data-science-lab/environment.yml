@@ -1,0 +1,20 @@
+name: dslab
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - ipykernel
+  - ipywidgets=8.1.2
+  - jupyterlab_widgets=3.0.15
+  - matplotlib
+  - nbformat
+  - networkx
+  - notebook
+  - numpy
+  - pandas
+  - plotly
+  - seaborn
+  - scipy
+  - statsmodels
+  - tqdm
