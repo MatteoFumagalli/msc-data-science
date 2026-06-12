@@ -18,7 +18,6 @@ The application offers two game modes:
 
 ### :file_folder: Repository Structure
 - `app.py` :arrow_right: main entry point of the Streamlit application
-- `environment.yml` :arrow_right: reproducible Conda environment
 - `RegularizedCNN.keras` :arrow_right: pre-trained CNN saved in Keras format
 - `requirements.txt` :arrow_right: list of Python dependencies
 - `utils.py` :arrow_right: helper functions for game logic, image preprocessing, and model inference
