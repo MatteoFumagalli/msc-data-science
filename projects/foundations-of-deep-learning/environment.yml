@@ -1,0 +1,16 @@
+name: fdl
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - altair
+  - numpy
+  - opencv
+  - pandas
+  - tensorflow
+  - pip
+  - pip:
+    - streamlit
+    - streamlit-autorefresh
+    - streamlit-drawable-canvas
